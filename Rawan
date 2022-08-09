@@ -1,0 +1,24 @@
+Scenario: Pilot with 3rd class is under 40 years and wants to fly
+Given: That the pilot is under 40 
+And: Wants to fly with his license
+When: The pilot is under 40
+Then: the license expired after 5 years
+--------------------------------------------
+Scenario: Pilot with 2nd class is over 40 and his license is expired
+Given:  Pilot with 2nd class is over 40
+And: his license is expired
+And : Wants to fly
+When : A Pilot that is over 40 expired his license drops to 3rd level for 6 months
+Then: Pilot can fly
+-----------------------------------------
+Scenario: Pilot under 40 with 1st level and his license expired
+Given:Pilot with 1st level
+And: His locense is expired
+When: Pilot under 40 with 1st level expired his license 
+Then: Pilot drops to 3rd level for 48 months
+-------------------------------------
+Given: Pilot whos over 40 with 3rd level class 
+And: his license expired 
+When: pilot with 3rd party expired his license he must renewal it
+Then : Pilot can not fly until he renewal his license
+ 
